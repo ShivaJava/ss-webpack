@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import 'bootstrap';
 
 (function($) {
     // Use this variable to set up the common and page specific functions. If you
@@ -41,7 +42,7 @@ import $ from 'jquery';
 
             // Fire common finalize JS
             UTIL.fire('common', 'finalize');
-            //$(#sh);  
+            //$(#sh);
         }
     };
 
@@ -49,3 +50,5 @@ import $ from 'jquery';
     $(document).ready(UTIL.loadEvents);
 
 })(jQuery); // Fully reference jQuery after this point.
+
+

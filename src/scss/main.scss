@@ -1,6 +1,11 @@
-@import 'components/normalize';
-@import 'components/variables';
-@import 'components/typography';
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+
 @import 'components/icon';
-@import 'components/button';
-@import 'pages/base';
+@import 'layout/index';
+
+//@import 'components/normalize';
+//@import 'components/variables';
+//@import 'components/typography';
+//@import 'components/button';
+//@import 'pages/base';

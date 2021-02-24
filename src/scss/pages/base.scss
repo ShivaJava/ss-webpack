@@ -2,31 +2,31 @@
 // Base
 // --------------------------------------------------
 body {
-    font-family: $font-family-base;
-    font-size: $font-size-base;
+    //font-family: $font-family-base;
+    //font-size: $font-size-base;
 }
 
 /* width */
 
-::-webkit-scrollbar {
-    width: 0.5rem;
-}
+//::-webkit-scrollbar {
+//    width: 0.5rem;
+//}
 
 /* Track */
 
-::-webkit-scrollbar-track {
-    background: #a4a4a4;
-}
+//::-webkit-scrollbar-track {
+//    background: #a4a4a4;
+//}
 
 /* Handle */
 
-::-webkit-scrollbar-thumb {
-    background: #231f20;
-    transition: 0.2s;
-}
+//::-webkit-scrollbar-thumb {
+//    background: #231f20;
+//    transition: 0.2s;
+//}
 
 /* Handle on hover */
 
-::-webkit-scrollbar-thumb:hover {
-    background: #161616;
-}
+//::-webkit-scrollbar-thumb:hover {
+//    background: #161616;
+//}

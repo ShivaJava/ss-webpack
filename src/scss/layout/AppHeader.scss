@@ -1,0 +1,17 @@
+.app-header {
+
+  &__logo {
+    width: 80px;
+    @media (min-width: 375px) {
+      width: 100px;
+    }
+  }
+
+  &__text {
+
+  }
+
+  &__phone {
+
+  }
+}

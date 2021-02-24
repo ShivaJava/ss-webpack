@@ -10,28 +10,28 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
 // include the HTML templating plugin
-const HTMLWebpackPlugin = require("html-webpack-plugin");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+// const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin');
 const HtmlBeautifyPlugin = require('html-beautify-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-function generateHtmlPlugins (templateDir) {
-    const templateFiles = fs.readdirSync(path.resolve(__dirname, templateDir))
-    return templateFiles.map(item => {
-      // Split names and extension
-      const parts = item.split('.')
-      const name = parts[0]
-      const extension = parts[1]
-      return new HTMLWebpackPlugin({
-        filename: `${name}.html`,
-        template: path.resolve(__dirname, `${templateDir}/${name}.${extension}`)
-      })
-    })
-  }
-  
-  // We will call the function like this:
-  const htmlPlugins = generateHtmlPlugins('./src/pages')
+// function generateHtmlPlugins (templateDir) {
+//     const templateFiles = fs.readdirSync(path.resolve(__dirname, templateDir))
+//     return templateFiles.map(item => {
+//         // Split names and extension
+//         const parts = item.split('.')
+//         const name = parts[0]
+//         const extension = parts[1]
+//         return new HtmlWebpackPlugin({
+//             inject: 'body',
+//             filename: `${name}.html`,
+//             template: path.resolve(__dirname, `${templateDir}/${name}.${extension}`)
+//         })
+//     })
+// }
+// const htmlPlugins = generateHtmlPlugins('./src/pages')
 
 module.exports = {
     entry: ["./src/js/index.js", "./src/scss/main.scss"],
@@ -44,7 +44,15 @@ module.exports = {
     },
     module: {
         rules: [
-            // perform js babelization on all .js files
+            {
+                test: /\.html$/,
+                use: {
+                    loader: 'html-loader',
+                    options: {
+                        interpolate: true
+                    }
+                }
+            },
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
@@ -54,7 +62,7 @@ module.exports = {
                         presets: ['@babel/preset-env']
                     }
                 }
-            },
+            }, // js
             {
                 test: /.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
                 use: [{
@@ -65,7 +73,7 @@ module.exports = {
                         publicPath: '../'
                     }
                 }]
-            },
+            }, // fonts
             {
                 test: /\.(svg|png|jpe?g)/i,
                 use: [{
@@ -79,7 +87,7 @@ module.exports = {
                         loader: "img-loader"
                     }
                 ]
-            },
+            }, // images
             {
                 test: /\.css$/,
                 use: [
@@ -92,7 +100,7 @@ module.exports = {
                         }
                     }
                 ]
-            },
+            }, // css
             {
                 test: /\.scss$/,
                 use: [
@@ -111,7 +119,7 @@ module.exports = {
                         }
                     }
                 ]
-            }
+            }  // scss
         ]
     },
     plugins: [
@@ -126,9 +134,14 @@ module.exports = {
         new webpack.ProvidePlugin({
             $: "jquery",
             jQuery: "jquery"
+        }),
+        // new HtmlWebpackPlugin(),
+        new HtmlWebpackPlugin({
+            filename: 'index.html',
+            template: '!!html-loader?interpolate!src/index.html',
         })
     ]
-    .concat(htmlPlugins)
+    // .concat(htmlPlugins)
     .concat(new HtmlBeautifyPlugin({
         config: {
             html: {

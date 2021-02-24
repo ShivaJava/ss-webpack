@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96a64e8a-eba2-450d-a5d0-14e416ff42ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/app-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/1-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/2-default.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/2-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/3-default.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/3-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/4-default.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/3_2.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/3_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/4_2.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/IMG_20210211_184556.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/IMG_20210211_185524.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Internet +.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/SbJKWR6eq0c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Smartsignal2.RAR" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/VT-900E kit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/f_17560216eb65acc4.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/f_56060216eb628f21.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/f_84060216eb71faba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/f_85360216eb74a474.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/illustration_1_2.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/illustration_1_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/illustration_1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/illustration_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/sert_sviazi_2019_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/sert_sviazi_2019_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/signal-level__bg--def.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/signal-level__bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Комплект Titan-180021002600 PRO (LED).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Комплект Titan-9002100 PRO (LED).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_Black(CMYK).eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_Black(Для футболки).ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_Black(Для футболки).eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_Black(Для футболки)_Монтажная область 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_Black.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_Black.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_Black_Монтажная область 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_White(Для футболки).ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_White(Для футболки).eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_White(Для футболки)_Монтажная область 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_White(СMYK).eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_White.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_White.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_White_Монтажная область 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/f_099600ac0446ef67.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/f_873600abfdc4424e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/Фавикон 120х120_Монтажная область 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/Фавикон.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Логотип/Фавикон_прозрачный 64х64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/10.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/11.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/12.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/7.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/8.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/9.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/главный на моб версию.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/иллюстрация антенны.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/default/код для яндекс карты.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/preview__bg--mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/general/preview__bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/main.html.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/AppFooter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/AppHeader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/AppLogo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/AppMain.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/calc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/how.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/sert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/signal-level.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/stages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/where.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sections/why.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/general/vertical-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1otkw9dn4GcSTmhTVAYCpxQOSWT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sections" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Олег\Desktop\ss-webpack\src\sections" />
+      <recent name="C:\Users\Олег\Desktop\ss-webpack\src\images\general" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Олег\Desktop\ss-webpack\src\images" />
+      <recent name="C:\Users\Олег\Desktop\ss-webpack\src" />
+      <recent name="C:\Users\Олег\Desktop\ss-webpack\src\layout" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dist" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dist" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.dist" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96a64e8a-eba2-450d-a5d0-14e416ff42ac" name="Default Changelist" comment="" />
+      <created>1614113509835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614113509835</updated>
+      <workItem from="1614113510909" duration="18400000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="27" key="GridCell.Tab.0.bottom" timestamp="1614132129858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="27" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614132129858" />
+    <state width="1899" height="27" key="GridCell.Tab.0.center" timestamp="1614132129858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="27" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614132129858" />
+    <state width="1899" height="27" key="GridCell.Tab.0.left" timestamp="1614132129858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="27" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614132129858" />
+    <state width="1899" height="27" key="GridCell.Tab.0.right" timestamp="1614132129858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="27" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614132129858" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1614118507073">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614118507073" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/webpack.config.js</url>
+          <line>45</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
