@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import 'bootstrap';
+import initApp from "./app";
 
 (function($) {
     // Use this variable to set up the common and page specific functions. If you
@@ -49,6 +50,7 @@ import 'bootstrap';
     // Load Events
     $(document).ready(UTIL.loadEvents);
 
-})(jQuery); // Fully reference jQuery after this point.
+    initApp();
 
+})(jQuery); // Fully reference jQuery after this point.
 

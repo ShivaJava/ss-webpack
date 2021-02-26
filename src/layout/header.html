@@ -1,4 +1,4 @@
-<header class="app-header navbar navbar-expand-lg navbar-light bg-white">
+<header class="app-header navbar fixed-top navbar-expand-lg navbar-light bg-white">
     <div class="app-header__inner container">
         <div class="d-flex">
             <a class="app-header__brand navbar-brand" href="/">
@@ -8,11 +8,16 @@
 				Мобильная связь, wi-fi сети в частные дома и на коммерческие <br> объекты в Санкт-Петербурге и  Ленинградской области.
 			</span>
         </div>
-        <div>
-            <a href="mail: info@smartsignal.ru" class="app-header__email">info@smartsignal.ru</a>
-            <a href="tel:+78126029390" class="app-header__phone">+78126029390</a>
+        <div class="d-flex flex-lg-row-reverse">
+            <a href="#" class="app-header__whatsapp d-flex justify-content-center align-items-center">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <div>
+                <a href="tel:+78126029390" class="app-header__phone">+78126029390</a>
+                <a href="mail: info@smartsignal.ru" class="app-header__email">info@smartsignal.ru</a>
+            </div>
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#appHeaderCollapse" aria-controls="appHeaderCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="app-header__navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#appHeaderCollapse" aria-controls="appHeaderCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
