@@ -2,35 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96a64e8a-eba2-450d-a5d0-14e416ff42ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/fontawesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/landing/calc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/landing/how.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/landing/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/landing/preview.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/landing/products.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/landing/sert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/landing/stages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/landing/where.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/landing/why.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/Section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/landing/signal-level.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/slick.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/font" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/fontawesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/fontawesome.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/landing/calc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/calc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/landing/how.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/how.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/landing/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/landing/preview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/preview.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/landing/products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/landing/sert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/sert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/landing/stages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/stages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/landing/where.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/where.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/landing/why.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/why.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/layout/AppHeader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/AppHeader.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/layout/AppMain.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/AppMain.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/Section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/Elements.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/layout/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/how.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/how.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/preview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/products.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/sert.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/sert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/stages.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/stages.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/where.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/where.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/why.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/why.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webfonts/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fa-brands-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webfonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fa-brands-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webfonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fa-brands-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webfonts/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fa-brands-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webfonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fa-brands-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webfonts/fa-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fa-regular-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webfonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fa-regular-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webfonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fa-regular-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webfonts/fa-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fa-regular-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webfonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webfonts/fa-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fa-solid-900.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webfonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fa-solid-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webfonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webfonts/fa-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fa-solid-900.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webfonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fa-solid-900.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,9 +123,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.dist" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +138,8 @@
       <option name="presentableId" value="Default" />
       <updated>1614113509835</updated>
       <workItem from="1614113510909" duration="18570000" />
-      <workItem from="1614250978273" duration="13457000" />
+      <workItem from="1614250978273" duration="15160000" />
+      <workItem from="1614310388422" duration="17620000" />
     </task>
     <servers />
   </component>
@@ -130,22 +147,22 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="238" key="GridCell.Tab.0.bottom" timestamp="1614306866821">
+    <state width="1899" height="238" key="GridCell.Tab.0.bottom" timestamp="1614308264150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614306866821" />
-    <state width="1899" height="238" key="GridCell.Tab.0.center" timestamp="1614306866821">
+    <state width="1899" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614308264150" />
+    <state width="1899" height="238" key="GridCell.Tab.0.center" timestamp="1614308264150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="238" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614306866821" />
-    <state width="1899" height="238" key="GridCell.Tab.0.left" timestamp="1614306866821">
+    <state width="1899" height="238" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614308264150" />
+    <state width="1899" height="238" key="GridCell.Tab.0.left" timestamp="1614308264150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="238" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614306866821" />
-    <state width="1899" height="238" key="GridCell.Tab.0.right" timestamp="1614306866821">
+    <state width="1899" height="238" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614308264150" />
+    <state width="1899" height="238" key="GridCell.Tab.0.right" timestamp="1614308264150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="238" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614306866821" />
+    <state width="1899" height="238" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614308264150" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1614306426547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

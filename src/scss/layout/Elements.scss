@@ -1,0 +1,30 @@
+.title {
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.125;
+  margin-bottom: 1.25rem;
+}
+
+.section {
+  padding: 2rem 0;
+  @media (min-width: 768px) {
+    padding: 2.25rem 0;
+  }
+  @media (min-width: 992px) {
+    padding: 2.5rem 0;
+  }
+
+  &__title {
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    @media (min-width: 768px) {
+      font-size: 1.75rem;
+      margin-bottom: 2.25rem;
+    }
+    @media (min-width: 992px) {
+      font-size: 2rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+}

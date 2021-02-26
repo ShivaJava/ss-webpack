@@ -1,3 +1,125 @@
 .preview {
+  padding: 0 0 1rem;
+  @media (min-width: 768px) {
+    padding-bottom: 2rem;
+  }
+  &__inner {
+    position: relative;
+  }
+
+  &__content {
+    margin-bottom: 1rem;
+    @media (min-width: 768px) {
+      position: absolute;
+      z-index: 1;
+      top: 19%;
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 992px) {
+      top: 22%;
+    }
+  }
+
+  &__title {
+    font-size: 6.5vw;
+    margin-bottom: 1rem;
+    text-align: left;
+
+    @media (min-width: 576px) {
+      font-size: 4.5vw;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 1.375rem;
+    }
+
+    @media (min-width: 992px) {
+      font-size: 1.875rem;
+    }
+
+    @media (min-width: 1200px) {
+      font-size: 2.25rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    @media (min-width: 768px) {
+      justify-content: flex-start;
+    }
+  }
+
+  &__button {
+    display: block;
+    text-align: center;
+
+    font-size: 3vw;
+    width: calc(50% - .125rem);
+    max-width: calc(50% - .125rem);
+
+    @media (min-width: 640px) {
+      font-size: .75rem;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 1rem;
+      width: auto;
+      max-width: 100%;
+      margin-right: .5rem;
+    }
+
+    &--consultation {
+
+    }
+
+    &--calc {
+
+    }
+  }
+
+  &__bg {
+    background-image: url('../images/general/preview__bg.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 532px;
+    margin-bottom: 0;
+
+    //@media (min-width: 420px) {
+    //  height: 372px;
+    //}
+    //
+    //@media (min-width: 768px) {
+    //  height: 332px;
+    //
+    //}
+    //
+    //@media (min-width: 992px) {
+    //  height: 448px;
+    //}
+    //
+    //@media (min-width: 1200px) {
+    //  height: 532px;
+    //}
+
+    @media (max-width: 1200px) {
+        height: 448px;
+    }
+    @media (max-width: 992px) {
+        height: 332px;
+    }
+    @media (max-width: 764px) {
+      height: 372px;
+      display: block !important;
+      background-size: 186%;
+      background-position-y: -10px;
+      background-position-x: 100%;
+    }
+    @media (max-width: 424px) {
+      height: 282px;
+    }
+  }
 
 }

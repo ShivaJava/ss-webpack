@@ -1,3 +1,134 @@
 .how {
 
+  &__inner {
+
+  }
+  &__header {
+
+  }
+  &__title {
+
+  }
+  &__text {
+
+  }
+  &__content {
+
+  }
+  &__item {
+    padding: 1rem 0;
+    @media (min-width: 992px) {
+      padding: 2rem 0;
+    }
+  }
+  &__item-image {
+    display: block;
+    margin-bottom: .5rem;
+  }
+
+  &__item-text {
+    border-bottom: 1px solid rgba($success, .34);
+    padding-bottom: .25rem;
+    margin-bottom: 0;
+    @media (min-width: 992px) {
+      padding-bottom: .5rem;
+    }
+  }
+
+  &__image {
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    &--1 {
+      height: 636px;
+      background-image: url('../images/general/2.svg');
+    }
+
+    &--2 {
+      height: 678px;
+      background-image: url('../images/general/3.svg');
+    }
+    &--3 {
+      height: 674px;
+      background-image: url('../images/general/4.svg');
+    }
+
+    @media (max-width: 1200px) {
+      &--1 {
+        height: 542px;
+      }
+      &--2 {
+        height: 570px;
+      }
+      &--3 {
+        height: 560px;
+      }
+    }
+
+
+    @media (max-width: 992px) {
+      &--1 {
+        height: 400px;
+      }
+      &--2 {
+        height: 422px;
+      }
+      &--3 {
+        height: 414px;
+      }
+    }
+
+
+    @media (max-width: 764px) {
+      &--1 {
+        height: 368px;
+        background-size: 186%;
+        background-position-y: -120px;
+        background-position-x: 58%;
+      }
+      &--2 {
+        height: 356px;
+        background-size: 150%;
+        background-position-y: 0px;
+        background-position-x: 20%;
+      }
+      &--3 {
+        height: 482px;
+        background-size: 192%;
+        background-position-y: -20px;
+        background-position-x: 50%;
+      }
+    }
+
+    @media (max-width: 492px) {
+      &--1 {
+        height: 362px;
+        background-size: 202%;
+        background-position-x: 55%;
+      }
+      &--2 {
+        background-size: 200%;
+        background-position-x: 10%;
+      }
+    }
+
+
+    @media (max-width: 424px) {
+      &--1 {
+        height: 290px;
+        background-position-y: -102px;
+      }
+      &--2 {
+        height: 290px;
+        background-size: 200%;
+        background-position-y: 0px;
+        background-position-x: 12%;
+      }
+      &--3 {
+        height: 372px;
+        background-size: 250%;
+        background-position-x: 58%;
+      }
+    }
+  }
 }

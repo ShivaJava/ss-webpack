@@ -1,6 +1,9 @@
 @import "custom";
 @import "~bootstrap/scss/bootstrap";
-@import "fontawesome";
+@import "slick";
+//@import "fontawesome";
+
+@import "components/typography";
 
 @import 'components/icon';
 @import 'layout/index';

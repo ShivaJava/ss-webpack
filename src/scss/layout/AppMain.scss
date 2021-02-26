@@ -1,9 +1,7 @@
 .app-main {
-  height: 300vh;
+  padding-top: 3.675rem;
+  min-height: 300vh;
 
-  &>* {
-    display: none;
-  }
   & img {
     width: 100%;
     height: auto;

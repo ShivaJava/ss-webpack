@@ -1,0 +1,43 @@
+.signal-level {
+
+  &__inner {
+
+  }
+
+  &__title {
+
+  }
+
+  &__content {
+    background-image: url(../img/default/signal-level__bg.jpg);
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+  }
+
+  &__content-title {
+    font-size: 1.25rem;
+  }
+
+  &__content-list {
+    padding: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 1.25;
+    list-style-position: inside;
+    border-bottom: 1px solid rgba($success, .34);
+  }
+
+  &__content-list-item {
+    margin-bottom: 1.5rem;
+  }
+
+  &__footer {
+
+    & > p {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+  }
+}

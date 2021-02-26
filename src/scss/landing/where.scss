@@ -1,3 +1,48 @@
 .where {
+  padding-top: 0;
+  &__inner {
 
+  }
+
+  &__text {
+
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: calc(50% - .25rem);
+    @media (min-width: 480px) {
+      width: calc(33.333% - .25rem);
+    }
+    @media (min-width: 480px) {
+      width: calc(33.333% - .625rem);
+    }
+    &:last-child {
+      width: 100%;
+      @media (min-width: 480px) {
+        width: calc(33.333% - .25rem);
+      }
+    }
+  }
+
+  &__item-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .25rem;
+    @media (min-width: 480px) {
+      margin-bottom: .7rem;
+    }
+  }
+
+  &__item-text {
+    text-align: center;
+    margin-bottom: .5rem;
+  }
 }
