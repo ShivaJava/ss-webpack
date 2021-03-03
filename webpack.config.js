@@ -37,7 +37,7 @@ module.exports = {
     entry: ["./src/js/index.js", "./src/scss/main.scss"],
     output: {
         filename: "js/index.[hash:8].js",
-        path: path.join(__dirname, "../build/")
+        path: path.join(__dirname, "../")
     },
     devServer: {
         contentBase: "./build"
