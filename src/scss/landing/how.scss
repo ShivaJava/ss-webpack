@@ -23,11 +23,10 @@
   }
   &__item-image {
     display: block;
-    margin-bottom: .5rem;
+    margin-bottom: 2rem;
   }
 
   &__item-text {
-    border-bottom: 1px solid rgba($success, .34);
     padding-bottom: .25rem;
     margin-bottom: 0;
     @media (min-width: 992px) {
@@ -38,30 +37,39 @@
   &__image {
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position-x: center;
 
     &--1 {
-      height: 636px;
       background-image: url('../images/general/2.svg');
+      height: 638px;
+      background-position-y: 58%;
+      background-size: 134%;
+      background-position-x: center;
     }
 
     &--2 {
-      height: 678px;
+      height: 730px;
       background-image: url('../images/general/3.svg');
+      background-position-y: 58%;
+      background-size: 106%;
+      background-position-x: center;
     }
     &--3 {
-      height: 674px;
+      height: 690px;
       background-image: url('../images/general/4.svg');
+      background-position-y: 50%;
     }
 
     @media (max-width: 1200px) {
       &--1 {
-        height: 542px;
+        height: 540px;
+        background-position-y: 62%;
       }
       &--2 {
-        height: 570px;
+        height: 596px;
       }
       &--3 {
-        height: 560px;
+        height: 566px;
       }
     }
 
@@ -71,31 +79,30 @@
         height: 400px;
       }
       &--2 {
-        height: 422px;
+        height: 446px;
       }
       &--3 {
-        height: 414px;
+        height: 424px;
       }
     }
 
 
     @media (max-width: 764px) {
       &--1 {
-        height: 368px;
-        background-size: 186%;
-        background-position-y: -120px;
-        background-position-x: 58%;
+        height: 410px;
+        background-size: 268%;
+        background-position-y: 64%;
       }
       &--2 {
-        height: 356px;
-        background-size: 150%;
-        background-position-y: 0px;
-        background-position-x: 20%;
+        height: 384px;
+        background-size: 154%;
+        background-position-y: 32%;
+        background-position-x: 22%;
       }
       &--3 {
-        height: 482px;
-        background-size: 192%;
-        background-position-y: -20px;
+        height: 490px;
+        background-size: 198%;
+        background-position-y: 38%;
         background-position-x: 50%;
       }
     }
@@ -107,22 +114,22 @@
         background-position-x: 55%;
       }
       &--2 {
+        height: 376px;
         background-size: 200%;
-        background-position-x: 10%;
+        background-position-x: 16%;
       }
     }
 
 
     @media (max-width: 424px) {
       &--1 {
-        height: 290px;
+        height: 300px;
         background-position-y: -102px;
       }
       &--2 {
         height: 290px;
         background-size: 200%;
-        background-position-y: 0px;
-        background-position-x: 12%;
+        background-position-x: 16%;
       }
       &--3 {
         height: 372px;

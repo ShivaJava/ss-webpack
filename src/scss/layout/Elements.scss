@@ -1,5 +1,4 @@
 .title {
-  font-family: 'Roboto Slab', serif;
   line-height: 1.125;
   margin-bottom: 1.25rem;
 }
@@ -14,7 +13,6 @@
   }
 
   &__title {
-    font-weight: 400;
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 2rem;
@@ -26,5 +24,18 @@
       font-size: 2rem;
       margin-bottom: 2.5rem;
     }
+  }
+}
+
+blockquote,
+.blockquote,
+blockquote.blockquote {
+  padding: 1rem;
+  border-left: 3px solid rgba($success, 0.34);
+  background-color: rgba($success, 0.14);
+
+  & > *:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }

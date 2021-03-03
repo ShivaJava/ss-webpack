@@ -15,18 +15,10 @@
   }
 
   &__item {
-    width: calc(50% - .25rem);
-    @media (min-width: 480px) {
-      width: calc(33.333% - .25rem);
-    }
+    width: calc(33.333% - .25rem);
+
     @media (min-width: 480px) {
       width: calc(33.333% - .625rem);
-    }
-    &:last-child {
-      width: 100%;
-      @media (min-width: 480px) {
-        width: calc(33.333% - .25rem);
-      }
     }
   }
 
@@ -39,10 +31,27 @@
     @media (min-width: 480px) {
       margin-bottom: .7rem;
     }
+    @media (min-width: 992px) {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__item-image {
+
   }
 
   &__item-text {
     text-align: center;
     margin-bottom: .5rem;
+    font-size: .625rem;
+    @media (min-width: 375px) {
+      font-size: .75rem;
+    }
+    @media (min-width: 576px) {
+      font-size: 1rem;
+    }
+    @media (min-width: 992px) {
+      font-size: 1.5rem;
+    }
   }
 }

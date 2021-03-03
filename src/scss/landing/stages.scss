@@ -13,6 +13,9 @@
   &__item-title {
     font-size: 1.25rem;
     padding-left: 3rem;
+    @media (min-width: 992px) {
+      font-size: 1.625rem;
+    }
   }
 
   &__item-icon {

@@ -1,3 +1,44 @@
 .app-footer {
+  text-align: center;
+  @media (min-width: 992px) {
+    text-align: left;
+  }
 
+  &__inner {
+
+  }
+
+  &__logo {
+    display: block;
+    width: 140px;
+    margin: 0 auto 3rem;
+    @media (min-width: 992px) {
+      width: 160px;
+      margin: 0;
+    }
+  }
+
+  &__phone {
+    display: inline-block;
+    margin-bottom: 3rem;
+    @media (min-width: 992px) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__email {
+    display: inline-block;
+    margin-bottom: 3rem;
+    @media (min-width: 992px) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__whatsapp {
+    display: inline-block;
+    margin-bottom: 3rem;
+    @media (min-width: 992px) {
+      margin-bottom: 0;
+    }
+  }
 }

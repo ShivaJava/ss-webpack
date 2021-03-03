@@ -1,83 +1,89 @@
 <section class="calc section">
     <div class="calc__inner section__inner container">
         <div class="calc__title section__title title">Примерный расчет стоимости</div>
-        <div class="px-4 border border-success rounded">
-            <div class="row">
-                <div class="col-lg-6">
-                    <form class="needs-validation" novalidate="">
-                        <div class="col-md-12">
-                            <label for="country" class="form-label">Местоположение</label>
-                            <select class="form-select" id="place" required="">
-                                <option value="">Выберите...</option>
-                                <option value="1000">В пределах КАД</option>
-                                <option value="1200">до 10 км от КАД</option>
-                                <option value="1700">до 30 км от КАД</option>
-                                <option value="2200">до 50 км от КАД</option>
-                                <option value="2500">до 80 км от КАД</option>
-                                <option value="3000">до 100 км от КАД</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please select a valid country.
+        <div class="calc__card card bg-white border-success">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <form class="needs-validation" novalidate="">
+
+                            <div class="form-group">
+                                <label for="country" class="form-label">Местоположение</label>
+                                <select class="form-select form-control form-control-lg" id="place" required="">
+                                    <option value="">Выберите...</option>
+                                    <option value="1000">В пределах КАД</option>
+                                    <option value="1200">до 10 км от КАД</option>
+                                    <option value="1700">до 30 км от КАД</option>
+                                    <option value="2200">до 50 км от КАД</option>
+                                    <option value="2500">до 80 км от КАД</option>
+                                    <option value="3000">до 100 км от КАД</option>
+                                </select>
                             </div>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="country" class="form-label">Что усиливаем?</label>
-                            <select class="form-select" id="service" required="">
-                                <option value="">Выберите...</option>
-                                <option value="1">только звонки</option>
-                                <option value="2">звонки + интернет</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please select a valid country.
+
+                            <div class="form-group">
+                                <label for="country" class="form-label">Что усиливаем?</label>
+                                <select class="form-select form-control form-control-lg" id="service" required="">
+                                    <option value="">Выберите...</option>
+                                    <option value="1">только звонки</option>
+                                    <option value="2">звонки + интернет</option>
+                                </select>
                             </div>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="country" class="form-label">Площадь зоны усиления</label>
-                            <select class="form-select" id="square" required="" disabled="">
-                                <option value="">Выберите...</option>
-                                <option value="23000">до 100 м2</option>
-                                <option value="46000">100 - 200 м2</option>
-                                <option value="69000">200 - 300 м2</option>
-                                <option value="92000">300 - 500 м2</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please select a valid country.
+
+                            <div class="form-group">
+                                <label for="country" class="form-label">Площадь зоны усиления</label>
+                                <select class="form-select form-control form-control-lg" id="square" required="" disabled="">
+                                    <option value="">Выберите...</option>
+                                    <option value="23000">до 100 м2</option>
+                                    <option value="46000">100 - 200 м2</option>
+                                    <option value="69000">200 - 300 м2</option>
+                                    <option value="92000">300 - 500 м2</option>
+                                </select>
                             </div>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="country" class="form-label">Количество помещений</label>
-                            <select class="form-select" id="room" required="">
-                                <option value="">Выберите...</option>
-                                <option value="0">1</option>
-                                <option value="4000">2</option>
-                                <option value="8000">3</option>
-                                <option value="12000">4</option>
-                                <option value="16000">5</option>
-                                <option value="20000">6</option>
-                                <option value="24000">7-8</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please select a valid country.
+
+                            <div class="form-group">
+                                <label for="country" class="form-label">Количество помещений</label>
+                                <select class="form-select form-control form-control-lg" id="room" required="">
+                                    <option value="">Выберите...</option>
+                                    <option value="0">1</option>
+                                    <option value="4000">2</option>
+                                    <option value="8000">3</option>
+                                    <option value="12000">4</option>
+                                    <option value="16000">5</option>
+                                    <option value="20000">6</option>
+                                    <option value="24000">7-8</option>
+                                </select>
                             </div>
+                        </form>
+                        <div class="border border-light rounded p-2">
+                            <div>Стоимость системы "под ключ" составляет:</div>
+                            <div id="error" class="calc__error badge badge-danger p-2 mt-2" role="alert">
+                                <i class="fas fa-exclamation-triangle mr-2"></i>
+                                Чтобы расчитать стоимость нужно заполнить все поля.
+                            </div>
+                            <span id="result" class="badge badge-success p-2 mt-2">
+                                <i class="fas fa-check-circle"></i>
+                                <span id="result-value"></span> рублей.
+                            </span>
                         </div>
-                        <div id="result" class="btn btn-lg btn-success col-md-12">Заполните поля...</div>
-                    </form>
-                </div>
-                <div class="col-lg-6">
-                    <p>В данную стоимость входит:</p>
-                    <ul>
-                        <li>радиочастотный анализ</li>
-                        <li>стоимость оборудования</li>
-                        <li>установка системы</li>
-                        <li>пуско-наладочные работы</li>
-                        <li>транспортные расходы</li>
-                        <li>консультации по эксплуатации</li>
-                        <li>гарантия 24 месяца</li>
-                    </ul>
-                    <p>Стоимость системы "под ключ" составляет: <b>38 500 руб.</b></p>
+                    </div>
+                    <div class="col-lg-6 pl-lg-5">
+                        <p>В данную стоимость входит:</p>
+                        <ul class="calc__list">
+                            <li class="calc__list-item">радиочастотный анализ</li>
+                            <li class="calc__list-item">стоимость оборудования</li>
+                            <li class="calc__list-item">установка системы</li>
+                            <li class="calc__list-item">пуско-наладочные работы</li>
+                            <li class="calc__list-item">транспортные расходы</li>
+                            <li class="calc__list-item">консультации по эксплуатации</li>
+                            <li class="calc__list-item">гарантия 24 месяца</li>
+                        </ul>
+
+                    </div>
                 </div>
             </div>
+            <div class="card-footer bg-white pb-4">
+                <small>Итоговая стоимость зависит от удаленности от базовой станции, особенности рельефа местности, конструкции стен и стадии отделки здания. Окончательная стоимость рассчитывается после измерений на объекте.</small>
+            </div>
+            </div>
         </div>
-        <p class="calc__text">Итоговая стоимость зависит от удаленности от базовой станции, особенности рельефа местности, конструкции стен и стадии отделки здания. Окончательная стоимость рассчитывается после измерений на объекте.</p>
-    </div>
 </section>

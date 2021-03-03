@@ -2,9 +2,15 @@
   padding-top: 3.675rem;
   min-height: 300vh;
 
+  @media (min-width: 992px) {
+    padding-top: 5rem;
+  }
+
   & img {
+    display: block;
     width: 100%;
     height: auto;
+    margin-bottom: 1rem;
   }
 }
 

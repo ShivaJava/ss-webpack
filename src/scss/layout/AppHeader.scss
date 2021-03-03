@@ -46,14 +46,21 @@
 
   &__email {
     display: block;
+    color: $success;
   }
 
   &__whatsapp {
     font-size: 1.5rem;
+    color: $success;
     margin-right: .75rem;
+    transition: all 300ms;
+    &:hover {
+      text-decoration: none;
+      transform: scale(1.05);
+    }
 
     @media (min-width: 992px) {
-      font-size: 1.75rem;
+      font-size: 2.5rem;
       margin-right: 0;
       margin-left: 1.25rem;
     }
