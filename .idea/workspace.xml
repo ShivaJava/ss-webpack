@@ -2,115 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96a64e8a-eba2-450d-a5d0-14e416ff42ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/calc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/why" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/AppMenu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/2-default.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/general/2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/3-default.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/general/3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/4-default.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/general/4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/3_2.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/3_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/4_2.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/IMG_20210211_184556.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/IMG_20210211_185524.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Internet +.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/SbJKWR6eq0c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Smartsignal2.RAR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/VT-900E kit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/f_17560216eb65acc4.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/f_56060216eb628f21.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/f_84060216eb71faba.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/f_85360216eb74a474.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/illustration_1_2.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/illustration_1_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/illustration_1_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/illustration_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/sert_sviazi_2019_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/sert_sviazi_2019_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/signal-level__bg--def.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/signal-level__bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Комплект Titan-180021002600 PRO (LED).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Комплект Titan-9002100 PRO (LED).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_Black(CMYK).eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_Black(Для футболки).ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_Black(Для футболки).eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_Black(Для футболки)_Монтажная область 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_Black.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_Black.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_Black_Монтажная область 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_White(Для футболки).ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_White(Для футболки).eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_White(Для футболки)_Монтажная область 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_White(СMYK).eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_White.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_White.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/SmartSignal_White_Монтажная область 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/f_099600ac0446ef67.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/f_873600abfdc4424e.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/Фавикон 120х120_Монтажная область 1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/Фавикон.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Логотип/Фавикон_прозрачный 64х64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/10.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/11.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/12.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/3.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/5.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/6.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/7.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/8.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/Скрины мобильной версии/9.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/главный на моб версию.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/иллюстрация антенны.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/default/код для яндекс карты.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/general/preview__bg--mobile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/general/2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/general/3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/general/4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/general/preview__bg--test.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/images/general/preview__bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/general/preview__bg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/landing/calc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/calc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/landing/how.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/how.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/landing/preview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/preview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/landing/signal-level.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/signal-level.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/landing/stages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/stages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/landing/where.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/where.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/landing/why.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/why.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/AppFooter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/AppFooter.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/layout/AppHeader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/AppHeader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/AppMain.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/AppMain.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/layout/Elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/Elements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/calc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/how.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/how.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/products.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/sert.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/sert.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/signal-level.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/signal-level.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/where.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/where.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/stages.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/stages.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/why.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/why.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,21 +52,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HTMLWebpackStarterKit" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Олег\Desktop\ss-webpack\src\images" />
+      <recent name="C:\Users\Олег\Desktop\ss-webpack\src" />
+      <recent name="C:\Users\Олег\Desktop\ss-webpack\src\layout" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Олег\Desktop\ss-webpack\src\js" />
       <recent name="C:\Users\Олег\Desktop\ss-webpack\src\scss\fontawesome" />
       <recent name="C:\Users\Олег\Desktop\ss-webpack\src\sections" />
       <recent name="C:\Users\Олег\Desktop\ss-webpack\src\images\general" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Олег\Desktop\ss-webpack\src\images" />
-      <recent name="C:\Users\Олег\Desktop\ss-webpack\src" />
-      <recent name="C:\Users\Олег\Desktop\ss-webpack\src\layout" />
     </key>
   </component>
   <component name="RunManager" selected="npm.build">
@@ -211,7 +126,10 @@
       <workItem from="1614471099200" duration="9313000" />
       <workItem from="1614527714674" duration="372000" />
       <workItem from="1614528125975" duration="7923000" />
-      <workItem from="1614722381461" duration="16971000" />
+      <workItem from="1614722381461" duration="19218000" />
+      <workItem from="1614782486110" duration="18000" />
+      <workItem from="1614789588034" duration="88000" />
+      <workItem from="1614792535343" duration="17671000" />
     </task>
     <servers />
   </component>
@@ -223,26 +141,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614472341229" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1614530649141">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1614782501752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614530649141" />
-    <state width="1899" height="314" key="GridCell.Tab.0.bottom" timestamp="1614543015673">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614782501752" />
+    <state width="1899" height="107" key="GridCell.Tab.0.bottom" timestamp="1614803542841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="314" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614543015673" />
-    <state width="1899" height="314" key="GridCell.Tab.0.center" timestamp="1614543015673">
+    <state width="1899" height="107" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614803542841" />
+    <state width="1899" height="107" key="GridCell.Tab.0.center" timestamp="1614803542841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="314" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614543015673" />
-    <state width="1899" height="314" key="GridCell.Tab.0.left" timestamp="1614543015673">
+    <state width="1899" height="107" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614803542841" />
+    <state width="1899" height="107" key="GridCell.Tab.0.left" timestamp="1614803542841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="314" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614543015673" />
-    <state width="1899" height="314" key="GridCell.Tab.0.right" timestamp="1614543015673">
+    <state width="1899" height="107" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614803542841" />
+    <state width="1899" height="107" key="GridCell.Tab.0.right" timestamp="1614803542841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="314" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614543015673" />
+    <state width="1899" height="107" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614803542841" />
     <state x="667" y="224" width="585" height="592" key="find.popup" timestamp="1614768700886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

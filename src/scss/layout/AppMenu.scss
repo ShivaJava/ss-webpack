@@ -1,0 +1,74 @@
+.app-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($dark, .74);
+  z-index: 1050;
+  transition: all .3s;
+
+
+  &__nav  {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 1100;
+    max-width: 240px;
+    width: 100%;
+    height: 100%;
+    background-color: $white;
+    transition: all .375s;
+    padding: 2.5rem;
+
+    @media (min-width: 768px) {
+      max-width: 360px;
+      padding: 4.5rem 3rem;
+    }
+
+    &--open {
+      right: 0;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: all .3s;
+
+    @media (min-width: 768px) {
+      font-size: 1.5rem;
+      top: 1.25rem;
+      right: 1.5rem;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  &__logo {
+    width: 100px;
+    margin-bottom: 1.5rem;
+    @media (min-width: 992px) {
+      width: 160px;
+    }
+  }
+
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__item {
+    margin-bottom: .75rem;
+  }
+}

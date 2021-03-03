@@ -8,7 +8,7 @@ export default function initApp() {
     let root = {
        $win  : $(window),
        $doc  : $(document),
-       $body : $("body")
+       $body : $([document.documentElement, document.body])
     }
 
     // Header
@@ -23,6 +23,38 @@ export default function initApp() {
         }
     }
     root.$win.on('scroll', scrollHeader);
+
+    // Menu
+    var $menuToggler = $('.app-header__navbar-toggler');
+    var $menu = $('.app-menu');
+    var $menuNav = $('.app-menu__nav');
+    var $menuCLose = $('.app-menu__close');
+    // var $menuAnchorLinks = $('.app-menu__link--anchor');
+
+    function toggleMenu() {
+        root.$body.toggleClass('modal-open');
+        $menu.fadeToggle(150);
+        $menuNav.toggleClass('app-menu__nav--open');
+    }
+
+    function scrollToAchor($target) {
+        if(!$target) return;
+        if($target.attr('href') === '#' || $target.attr('href') === '/') return;
+        var $anchor = $($target.attr('href'));
+        root.$body.animate({
+            scrollTop: $anchor.offset().top - 60
+        }, 2000);
+    }
+
+    $menuToggler.on('click', toggleMenu);
+    $menuCLose.on('click', toggleMenu);
+    $menu.on('click', function(event) {
+        var $target = $(event.target);
+        console.log($target.closest('.app-app-menu__link--anchor').length)
+        if($target.closest('.app-menu__nav').length && $target.closest('.app-app-menu__link--anchor').length) return;
+        toggleMenu();
+        scrollToAchor($target);
+    });
 
     // Sert slider
     var $sertSlider = $('#sertSlider');
@@ -146,22 +178,6 @@ export default function initApp() {
         });
     }
     calc();
-
-    [
-        {
-            "font-family": "Roboto Slab",
-            "files": [
-                {
-                    "ext": ""
-                    "format": "woff2",
-                    "url": ""
-                },
-                {
-
-                }
-            ]
-        }
-    ]
 }
 
 

@@ -6,10 +6,10 @@
 .section {
   padding: 2rem 0;
   @media (min-width: 768px) {
-    padding: 2.25rem 0;
+    padding: 2.5rem 0;
   }
   @media (min-width: 992px) {
-    padding: 2.5rem 0;
+    padding: 4rem 0;
   }
 
   &__title {
@@ -18,11 +18,11 @@
     margin-bottom: 2rem;
     @media (min-width: 768px) {
       font-size: 1.75rem;
-      margin-bottom: 2.25rem;
+      margin-bottom: 2.5rem;
     }
     @media (min-width: 992px) {
       font-size: 2rem;
-      margin-bottom: 2.5rem;
+      margin-bottom: 4rem;
     }
   }
 }
@@ -30,7 +30,8 @@
 blockquote,
 .blockquote,
 blockquote.blockquote {
-  padding: 1rem;
+  font-size: inherit;
+  padding: .5rem 1rem;
   border-left: 3px solid rgba($success, 0.34);
   background-color: rgba($success, 0.14);
 
