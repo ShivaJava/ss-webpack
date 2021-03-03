@@ -37,7 +37,7 @@ module.exports = {
     entry: ["./src/js/index.js", "./src/scss/main.scss"],
     output: {
         filename: "js/index.[hash:8].js",
-        path: path.join(__dirname, "./build/")
+        path: path.join(__dirname, "../build/")
     },
     devServer: {
         contentBase: "./build"
@@ -70,7 +70,7 @@ module.exports = {
                     options: {
                         name: '[name].[ext]',
                         outputPath: 'fonts/',
-                        publicPath: 'build/'
+                        publicPath: 'build/fonts/'
                     }
                 }]
             }, // fonts
@@ -87,7 +87,7 @@ module.exports = {
                         loader: "img-loader"
                     }
                 ]
-            }, // images
+            }, // images cjSzvZpk
             {
                 test: /\.css$/,
                 use: [
