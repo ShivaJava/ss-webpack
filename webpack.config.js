@@ -70,13 +70,14 @@ module.exports = {
                     options: {
                         name: '[name].[ext]',
                         outputPath: 'fonts/',
-                        publicPath: 'build/fonts/'
+                        publicPath: '../'
                     }
                 }]
-            }, // fonts
+            },
             {
                 test: /\.(svg|png|jpe?g)/i,
-                use: [{
+                use: [
+                    {
                         loader: "url-loader",
                         options: {
                             name: "./images/[name].[ext]",
@@ -87,7 +88,7 @@ module.exports = {
                         loader: "img-loader"
                     }
                 ]
-            }, // images cjSzvZpk
+            },
             {
                 test: /\.css$/,
                 use: [
@@ -130,6 +131,10 @@ module.exports = {
         new CopyWebpackPlugin([{
             from: 'src/images',
             to: 'images'
+        }]),
+        new CopyWebpackPlugin([{
+            from: 'src/fonts',
+            to: 'fonts'
         }]),
         new webpack.ProvidePlugin({
             $: "jquery",
