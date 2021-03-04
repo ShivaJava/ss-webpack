@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="96a64e8a-eba2-450d-a5d0-14e416ff42ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/landing/products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/landing/where.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/where.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
       <workItem from="1614817783811" duration="10991000" />
       <workItem from="1614838582359" duration="147000" />
       <workItem from="1614841366267" duration="451000" />
-      <workItem from="1614845545937" duration="18037000" />
+      <workItem from="1614845545937" duration="20378000" />
     </task>
     <task id="LOCAL-00001" summary="Slick fix">
       <created>1614846154043</created>
@@ -165,22 +163,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614830302542" />
-    <state width="1899" height="180" key="GridCell.Tab.0.bottom" timestamp="1614874971835">
+    <state width="1899" height="180" key="GridCell.Tab.0.bottom" timestamp="1614875564881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614874971835" />
-    <state width="1899" height="180" key="GridCell.Tab.0.center" timestamp="1614874971835">
+    <state width="1899" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614875564881" />
+    <state width="1899" height="180" key="GridCell.Tab.0.center" timestamp="1614875564881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="180" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614874971835" />
-    <state width="1899" height="180" key="GridCell.Tab.0.left" timestamp="1614874971835">
+    <state width="1899" height="180" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614875564881" />
+    <state width="1899" height="180" key="GridCell.Tab.0.left" timestamp="1614875564881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="180" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614874971835" />
-    <state width="1899" height="180" key="GridCell.Tab.0.right" timestamp="1614874971835">
+    <state width="1899" height="180" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614875564881" />
+    <state width="1899" height="180" key="GridCell.Tab.0.right" timestamp="1614875564881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="180" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614874971835" />
+    <state width="1899" height="180" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614875564881" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614858099241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

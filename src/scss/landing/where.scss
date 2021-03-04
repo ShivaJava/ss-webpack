@@ -5,7 +5,9 @@
   }
 
   &__text {
-
+    @media (min-width: 992px) {
+      margin-bottom: 2rem;
+    }
   }
 
   &__content {
@@ -18,7 +20,7 @@
     width: calc(33.333% - .25rem);
 
     @media (min-width: 480px) {
-      width: calc(33.333% - .625rem);
+      width: calc(30% - .25rem);
     }
   }
 
