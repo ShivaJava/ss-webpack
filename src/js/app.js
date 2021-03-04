@@ -45,8 +45,6 @@ export default function initApp() {
     var $menuToggler = $('.app-header__navbar-toggler');
     var $menu = $('.app-menu');
     var $menuNav = $('.app-menu__nav');
-    var $menuCLose = $('.app-menu__close');
-    var $menuAnchorLinks = $('.app-menu__link--anchor');
 
     function toggleMenu() {
         root.$body.toggleClass('modal-open');
@@ -57,9 +55,9 @@ export default function initApp() {
     $menuToggler.on('click', toggleMenu);
     $menu.on('click', function(event) {
         var $target = $(event.target);
-        if(!!$target.closest('.app-menu__nav').length && !$target.is($menuAnchorLinks)) return;
+        if(!!$target.closest('.app-menu__nav').length && !$target.is($anchorLinks)) return;
         toggleMenu();
-        if($target.is($menuAnchorLinks)) scrollToAchor($target);
+        if($target.is($anchorLinks)) scrollToAchor($target);
     });
 
     // Sert slider

@@ -4,7 +4,8 @@
     <list default="true" id="96a64e8a-eba2-450d-a5d0-14e416ff42ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/landing/products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/products.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,7 @@
       <workItem from="1614817783811" duration="10991000" />
       <workItem from="1614838582359" duration="147000" />
       <workItem from="1614841366267" duration="451000" />
-      <workItem from="1614845545937" duration="9841000" />
+      <workItem from="1614845545937" duration="18037000" />
     </task>
     <task id="LOCAL-00001" summary="Slick fix">
       <created>1614846154043</created>
@@ -132,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614847225287</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="preview anchor to calc">
+      <created>1614858097548</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614858097548</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,41 +149,42 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Slick fix" />
     <MESSAGE value="images aspect" />
-    <option name="LAST_COMMIT_MESSAGE" value="images aspect" />
+    <MESSAGE value="preview anchor to calc" />
+    <option name="LAST_COMMIT_MESSAGE" value="preview anchor to calc" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614472341229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614472341229" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1614847224619">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1614858096831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614847224619" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614858096831" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1614830302542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614830302542" />
-    <state width="1899" height="180" key="GridCell.Tab.0.bottom" timestamp="1614857259273">
+    <state width="1899" height="180" key="GridCell.Tab.0.bottom" timestamp="1614874971835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614857259273" />
-    <state width="1899" height="180" key="GridCell.Tab.0.center" timestamp="1614857259273">
+    <state width="1899" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614874971835" />
+    <state width="1899" height="180" key="GridCell.Tab.0.center" timestamp="1614874971835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="180" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614857259273" />
-    <state width="1899" height="180" key="GridCell.Tab.0.left" timestamp="1614857259273">
+    <state width="1899" height="180" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614874971835" />
+    <state width="1899" height="180" key="GridCell.Tab.0.left" timestamp="1614874971835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="180" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614857259273" />
-    <state width="1899" height="180" key="GridCell.Tab.0.right" timestamp="1614857259273">
+    <state width="1899" height="180" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614874971835" />
+    <state width="1899" height="180" key="GridCell.Tab.0.right" timestamp="1614874971835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="180" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614857259273" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614847227701">
+    <state width="1899" height="180" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614874971835" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614858099241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614847227701" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614858099241" />
     <state x="667" y="224" width="585" height="592" key="find.popup" timestamp="1614768700886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
