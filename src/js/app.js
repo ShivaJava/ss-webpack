@@ -1,7 +1,7 @@
 import $ from 'jquery';
 window.$ = window.jQuery = $;
 import 'slick-carousel'
-import 'bootstrap';
+// import 'bootstrap';
 
 export default function initApp() {
 

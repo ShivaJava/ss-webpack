@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import 'bootstrap';
+// import 'bootstrap';
 import initApp from "./app";
 
 (function($) {
