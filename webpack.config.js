@@ -7,7 +7,8 @@ const TerserPlugin = require('terser-webpack-plugin');
 
 // include the css extraction and minification plugins
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+// const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 // include the HTML templating plugin
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -160,6 +161,7 @@ module.exports = {
         }
     })),
     optimization: {
+        minimize: true,
         minimizer: [
             // enable the js minification plugin
             new TerserPlugin({
@@ -173,7 +175,17 @@ module.exports = {
                 },
             }),
             // enable the css minification plugin
-            new OptimizeCSSAssetsPlugin({})
+            // new OptimizeCSSAssetsPlugin({}),
+            new CssMinimizerPlugin({
+                minimizerOptions: {
+                    preset: [
+                        'default',
+                        {
+                            discardComments: { removeAll: true },
+                        },
+                    ],
+                },
+            }),
         ]
     },
     resolve: {

@@ -29,7 +29,7 @@ export default function initApp() {
     var $menu = $('.app-menu');
     var $menuNav = $('.app-menu__nav');
     var $menuCLose = $('.app-menu__close');
-    // var $menuAnchorLinks = $('.app-menu__link--anchor');
+    var $menuAnchorLinks = $('.app-menu__link--anchor');
 
     function toggleMenu() {
         root.$body.toggleClass('modal-open');
@@ -47,13 +47,11 @@ export default function initApp() {
     }
 
     $menuToggler.on('click', toggleMenu);
-    $menuCLose.on('click', toggleMenu);
     $menu.on('click', function(event) {
         var $target = $(event.target);
-        console.log($target.closest('.app-app-menu__link--anchor').length)
-        if($target.closest('.app-menu__nav').length && $target.closest('.app-app-menu__link--anchor').length) return;
+        if(!!$target.closest('.app-menu__nav').length && !$target.is($menuAnchorLinks)) return;
         toggleMenu();
-        scrollToAchor($target);
+        if($target.is($menuAnchorLinks)) scrollToAchor($target);
     });
 
     // Sert slider
@@ -168,11 +166,11 @@ export default function initApp() {
                 if ( Number.isInteger(parseInt(check)) ) {
                     $result.show();
                     $resultValue.html(check);
-                    $error.hide();
+                    $error.addClass('d-none').removeClass('d-flex');
                 }
             } else {
                 $result.hide();
-                $error.show();
+                $error.removeClass('d-none').addClass('d-flex');
             }
 
         });

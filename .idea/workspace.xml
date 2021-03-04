@@ -3,7 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="96a64e8a-eba2-450d-a5d0-14e416ff42ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/general/default/master-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/general/default/master-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/general/default/master-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/general/default/master-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/landing/calc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/calc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/landing/products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/landing/where.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landing/where.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/AppHeader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/AppHeader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/AppMenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/AppMenu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/Elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/Elements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/calc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/why.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/why.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +46,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images/general/default" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -41,11 +57,11 @@
       <recent name="C:\Users\Олег\Desktop\ss-webpack\src\layout" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Олег\Desktop\ss-webpack\src\images\general\default" />
       <recent name="C:\Users\Олег\Desktop\ss-webpack\src\fonts" />
       <recent name="C:\Users\Олег\Desktop\ss-webpack\src\js" />
       <recent name="C:\Users\Олег\Desktop\ss-webpack\src\scss\fontawesome" />
       <recent name="C:\Users\Олег\Desktop\ss-webpack\src\sections" />
-      <recent name="C:\Users\Олег\Desktop\ss-webpack\src\images\general" />
     </key>
   </component>
   <component name="RunManager" selected="npm.build">
@@ -111,7 +127,7 @@
       <workItem from="1614792535343" duration="18149000" />
       <workItem from="1614810845212" duration="685000" />
       <workItem from="1614811568198" duration="6173000" />
-      <workItem from="1614817783811" duration="2647000" />
+      <workItem from="1614817783811" duration="10287000" />
     </task>
     <servers />
   </component>
@@ -123,26 +139,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614472341229" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1614782501752">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1614830302542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614782501752" />
-    <state width="1899" height="230" key="GridCell.Tab.0.bottom" timestamp="1614819085796">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614830302542" />
+    <state width="1899" height="230" key="GridCell.Tab.0.bottom" timestamp="1614827255576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614819085796" />
-    <state width="1899" height="230" key="GridCell.Tab.0.center" timestamp="1614819085795">
+    <state width="1899" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614827255576" />
+    <state width="1899" height="230" key="GridCell.Tab.0.center" timestamp="1614827255576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="230" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614819085795" />
-    <state width="1899" height="230" key="GridCell.Tab.0.left" timestamp="1614819085795">
+    <state width="1899" height="230" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614827255576" />
+    <state width="1899" height="230" key="GridCell.Tab.0.left" timestamp="1614827255576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="230" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614819085795" />
-    <state width="1899" height="230" key="GridCell.Tab.0.right" timestamp="1614819085795">
+    <state width="1899" height="230" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614827255576" />
+    <state width="1899" height="230" key="GridCell.Tab.0.right" timestamp="1614827255576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="230" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614819085795" />
+    <state width="1899" height="230" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614827255576" />
     <state x="667" y="224" width="585" height="592" key="find.popup" timestamp="1614768700886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

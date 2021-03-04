@@ -2,14 +2,15 @@
     <div class="calc__inner section__inner container">
         <div class="calc__title section__title title">Примерный расчет стоимости</div>
         <div class="calc__card card bg-white border-success">
-            <div class="card-body">
+            <div class="card-body px-2">
                 <div class="row">
                     <div class="col-lg-6 mb-4 mb-lg-0">
-                        <form class="needs-validation" novalidate="">
+                        <div class="border border-light rounded p-3 mb-2">
+                            <form class="needs-validation" novalidate="">
 
                             <div class="form-group">
                                 <label for="country" class="form-label">Местоположение</label>
-                                <select class="form-select form-control form-control-lg" id="place" required="">
+                                <select class="form-select form-control form-control-md" id="place" required="">
                                     <option value="">Выберите...</option>
                                     <option value="1000">В пределах КАД</option>
                                     <option value="1200">до 10 км от КАД</option>
@@ -22,7 +23,7 @@
 
                             <div class="form-group">
                                 <label for="country" class="form-label">Что усиливаем?</label>
-                                <select class="form-select form-control form-control-lg" id="service" required="">
+                                <select class="form-select form-control form-control-md" id="service" required="">
                                     <option value="">Выберите...</option>
                                     <option value="1">только звонки</option>
                                     <option value="2">звонки + интернет</option>
@@ -31,7 +32,7 @@
 
                             <div class="form-group">
                                 <label for="country" class="form-label">Площадь зоны усиления</label>
-                                <select class="form-select form-control form-control-lg" id="square" required="" disabled="">
+                                <select class="form-select form-control form-control-md" id="square" required="" disabled="">
                                     <option value="">Выберите...</option>
                                     <option value="23000">до 100 м2</option>
                                     <option value="46000">100 - 200 м2</option>
@@ -42,7 +43,7 @@
 
                             <div class="form-group">
                                 <label for="country" class="form-label">Количество помещений</label>
-                                <select class="form-select form-control form-control-lg" id="room" required="">
+                                <select class="form-select form-control form-control-md" id="room" required="">
                                     <option value="">Выберите...</option>
                                     <option value="0">1</option>
                                     <option value="4000">2</option>
@@ -54,30 +55,32 @@
                                 </select>
                             </div>
                         </form>
+                        </div>
                         <div class="border border-light rounded p-2">
                             <div>Стоимость системы "под ключ" составляет:</div>
-                            <div id="error" class="calc__error badge badge-danger p-2 mt-2" role="alert">
-                                <i class="fas fa-exclamation-triangle mr-2"></i>
+                            <div id="error" class="calc__error d-flex align-items-center badge badge-danger p-2 mt-2 text-left" role="alert">
+                                <i class="fas fa-exclamation-triangle fa-1x mr-2"></i>
                                 Чтобы расчитать стоимость нужно заполнить все поля.
                             </div>
-                            <span id="result" class="badge badge-success p-2 mt-2">
+                            <span id="result" class="calc__result badge badge-success h3 p-2 mt-2">
                                 <i class="fas fa-check-circle"></i>
                                 <span id="result-value"></span> рублей.
                             </span>
                         </div>
                     </div>
-                    <div class="col-lg-6 pl-lg-5">
-                        <p>В данную стоимость входит:</p>
-                        <ul class="calc__list">
-                            <li class="calc__list-item">радиочастотный анализ</li>
-                            <li class="calc__list-item">стоимость оборудования</li>
-                            <li class="calc__list-item">установка системы</li>
-                            <li class="calc__list-item">пуско-наладочные работы</li>
-                            <li class="calc__list-item">транспортные расходы</li>
-                            <li class="calc__list-item">консультации по эксплуатации</li>
-                            <li class="calc__list-item">гарантия 24 месяца</li>
-                        </ul>
-
+                    <div class="col-lg-6">
+                        <div class="border border-light rounded p-3">
+                            <p>В данную стоимость входит:</p>
+                            <ul class="calc__list">
+                                <li class="calc__list-item">радиочастотный анализ</li>
+                                <li class="calc__list-item">стоимость оборудования</li>
+                                <li class="calc__list-item">установка системы</li>
+                                <li class="calc__list-item">пуско-наладочные работы</li>
+                                <li class="calc__list-item">транспортные расходы</li>
+                                <li class="calc__list-item">консультации по эксплуатации</li>
+                                <li class="calc__list-item">гарантия 24 месяца</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
