@@ -21,7 +21,9 @@
     "bootstrap": "^4.6.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
-    "slick-carousel": "github:nicolaskopp/slick"
+    "precss": "^4.0.0",
+    "slick-carousel": "github:nicolaskopp/slick",
+    "style-loader": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
