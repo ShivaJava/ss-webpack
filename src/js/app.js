@@ -11,6 +11,23 @@ export default function initApp() {
        $body : $([document.documentElement, document.body])
     }
 
+    // Utils
+    var $anchorLinks = $('.anchor-link');
+    $anchorLinks.on('click', function(event) {
+        event.preventDefault();
+        var $target = $(event.target);
+        scrollToAchor($target);
+    })
+
+    function scrollToAchor($target) {
+        if(!$target) return;
+        if($target.attr('href') === '#' || $target.attr('href') === '/') return;
+        var $anchor = $($target.attr('href'));
+        root.$body.animate({
+            scrollTop: $anchor.offset().top - 60
+        }, 2000);
+    }
+
     // Header
     var $header = $('.app-header');
     var scrollHeader = function() {
@@ -35,15 +52,6 @@ export default function initApp() {
         root.$body.toggleClass('modal-open');
         $menu.fadeToggle(150);
         $menuNav.toggleClass('app-menu__nav--open');
-    }
-
-    function scrollToAchor($target) {
-        if(!$target) return;
-        if($target.attr('href') === '#' || $target.attr('href') === '/') return;
-        var $anchor = $($target.attr('href'));
-        root.$body.animate({
-            scrollTop: $anchor.offset().top - 60
-        }, 2000);
     }
 
     $menuToggler.on('click', toggleMenu);
