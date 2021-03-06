@@ -8,6 +8,31 @@
 
   }
 
+  &__item {
+    margin-bottom: 1rem;
+  }
+
+  &__image--1 {
+    background-image: url('../images/general/5.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    height: 270px;
+    @media (min-width: 576px) {
+      background-size: auto 98%;
+    }
+    @media (min-width: 768px) {
+      height: 405px;
+    }
+    @media (min-width: 992px) {
+      height: 540px;
+    }
+    @media (min-width: 1200px) {
+      height: 640px;
+    }
+  }
+
+
   &__content {
 
   }

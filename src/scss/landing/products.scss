@@ -13,9 +13,10 @@
   }
   &__title {
     width: 100%;
-    white-space: nowrap; /* Запрещаем перенос строк */
-    overflow: hidden; /* Обрезаем все, что не помещается в область */
-    text-overflow: ellipsis; /* Добавляем многоточие */
+    text-align: center;
+    white-space: unset;
+    overflow: unset;
+    text-overflow: unset;
   }
   &__image {
     width: 100%;
@@ -30,6 +31,7 @@
     margin-bottom: .25rem;
     font-size: 1.125rem;
     min-height: 150px;
+    text-align: justify;
   }
   &__another {
     font-size: 1rem;
