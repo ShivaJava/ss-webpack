@@ -182,6 +182,17 @@ export default function initApp() {
         });
     }
     calc();
+
+    setTimeout(function(){
+        var elem = document.createElement('script');
+        elem.async = true;
+        elem.charset = 'UTF-8';
+        elem.crossorigin = 'anonymous'
+        elem.id = 'check-code-pozvonim';
+        elem.type = 'text/javascript';
+        elem.src = '//api.pozvonim.com/widget/callback/v3/dee1d5feb09e2579682b84fd955aaea1/connect';
+        document.getElementsByTagName('body')[0].appendChild(elem);
+    }, 2500);
 }
 
 

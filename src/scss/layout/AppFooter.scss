@@ -42,3 +42,63 @@
     }
   }
 }
+
+.app-header__telegram {
+  font-size: 1.5rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.app-header__whatsapp {
+  font-size: 1.25rem;
+  color: #fff;
+  background-color: #22990b;
+  width: 32px;
+  border-radius: 8px;
+  padding: 4px 1px;
+  margin-right: .5rem;
+}
+.app-header__navbar-toggler {
+  color: unset;
+  font-size: 1.65rem;
+}
+
+
+@media (min-width: 330px) {
+  .app-header__contacts {
+    zoom: 1;
+  }
+}
+
+
+
+
+@media (min-width: 992px) {
+  .where__item-card {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 480px) {
+  .where__item-card {
+    margin-bottom: 0;
+  }
+}
+
+
+
+.signal-level__image--1 {
+  background-position: top;
+}
+@media (min-width: 1200px) {
+  .signal-level__image--1 {
+    height: 520px;
+  }
+}
+
+
+.product-card__text {
+  min-height: 175px;
+}
+
+
